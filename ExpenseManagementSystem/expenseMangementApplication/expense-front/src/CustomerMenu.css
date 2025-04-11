@@ -1,0 +1,154 @@
+/* ==== Navbar ==== */
+.customer-navbar {
+  background-color: rgba(26, 26, 46, 0.8);
+  padding: 15px 20px;
+  border-bottom: 3px solid #25f1f1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4.8rem;
+  z-index: 1000;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* ==== Font and Body ==== */
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 78px;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* ==== Navbar Title ==== */
+.customer-brand {
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  text-shadow: 1px 1px 3px #000;
+}
+
+/* ==== Nav Links ==== */
+.customer-navbar .nav-link {
+  color: white;
+  font-size: 18px;
+  margin-left: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.customer-navbar .nav-link:hover {
+  color: #4191ae;
+  text-shadow: 1px 1px 5px #37b38c;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 6px 12px;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 0 10px rgba(255, 69, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ==== Dropdown Menu ==== */
+.customer-navbar .dropdown-menu {
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid #25f1f1;
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  animation: dropdownFade 0.3s ease-in-out;
+  box-shadow: 0 8px 20px rgba(0, 255, 187, 0.2);
+  margin-top: 10px;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+/* ==== Dropdown Items ==== */
+.customer-navbar .dropdown-item {
+  color: #fff;
+  padding: 10px 20px;
+  transition: 0.3s ease;
+  position: relative;
+}
+
+.customer-navbar .dropdown-item:hover {
+  background: linear-gradient(
+    135deg,
+    rgba(0, 255, 187, 0.15),
+    rgba(255, 69, 0, 0.15)
+  );
+  color: #00ffbb;
+  text-shadow: 1px 1px 4px rgba(0, 255, 187, 0.6);
+  border-left: 4px solid #00ffbb;
+}
+
+/* ==== Dropdown Animation ==== */
+@keyframes dropdownFade {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ==== Username Styling ==== */
+.navbar-username {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  left: 30%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  text-shadow: 1px 1px 3px #000;
+}
+
+/* ==== Background Image ==== */
+.image-container {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -2;
+}
+
+.background-image {
+  top: 1px;
+  width: 100vw;
+  height: 100vh;
+  object-fit: fill;
+  filter: brightness(0.6);
+}
+
+/* ==== Subtle Gradient Overlay ==== */
+.image-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(-45deg, rgba(249, 0, 0, 0.04), rgba(29, 149, 188, 0.4), rgba(5, 234, 234, 0.2), rgba(255, 255, 255, 0.3));
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  z-index: 1;
+  pointer-events: none;
+  opacity: .1;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}

@@ -1,0 +1,74 @@
+/* ===== Background (Same as login/register) ===== */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(-45deg, #ffffff, #17212a, #6dbdbd, #181f1f);
+    background-size: 400% 400%;
+    animation: gradientMove 15s ease infinite;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+  }
+  
+  @keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  /* ===== Heading ===== */
+  h2.text-center {
+    color: #ffffff;
+    text-shadow: 1px 1px 4px #000000;
+    margin-top: 20px;
+  }
+  
+  /* ===== Table Styling ===== */
+  .table {
+    width: 90%;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.07);
+    color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.1);
+  }
+  
+  .table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .table thead {
+    background-color: rgba(0, 255, 187, 0.15);
+    color: #00ffbb;
+    text-shadow: 1px 1px 2px rgba(0,255,187,0.5);
+  }
+  
+  /* ===== Buttons ===== */
+  .btn-info, .btn-success {
+    background-color: #00ffbb !important;
+    color: #000 !important;
+    font-weight: bold;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 255, 187, 0.4);
+    transition: 0.3s ease-in-out;
+  }
+  
+  .btn-info:hover, .btn-success:hover {
+    background-color: #37b38c !important;
+    box-shadow: 0 0 12px rgba(0, 255, 187, 0.7);
+    transform: translateY(-2px);
+    color: white !important;
+  }
+  
+  /* ===== Return Button Positioning ===== */
+  button.btn-success {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  
