@@ -87,3 +87,27 @@ Make sure you have the following installed on your machine:
    ```bash
    git clone https://github.com/nirmal2342/Expense-Management-System.git
    cd Expense-Management-System
+
+Some snapshots : 
+
+---
+
+## 📸 Snapshots
+
+### 🔐 Login View
+![Login View](./ExpenseManagementSystem/expenseMangementApplication/expense-front/Screenshots/Login-Page.png)
+
+### 🛡️ Admin Dashboard
+![Admin View](./ExpenseManagementSystem/expenseMangementApplication/expense-front/Screenshots/Admin-Menu.png)
+
+### 👤 Customer Menu
+![Customer View](./ExpenseManagementSystem/expenseMangementApplication/expense-front/Screenshots/Customer-Menu.png)
+
+### 📂 Category Management
+![Category View](./ExpenseManagementSystem/expenseMangementApplication/expense-front/Screenshots/Category-List.png)
+
+### 📊 Dashboard Summary
+![Dashboard View](./ExpenseManagementSystem/expenseMangementApplication/expense-front/Screenshots/Landing-Page.png)
+
+### 📈 Expense Report (Pie Chart)
+![Report](./ExpenseManagementSystem/expenseMangementApplication/expense-front/Screenshots/Expense-Report.png)
