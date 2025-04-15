@@ -97,17 +97,24 @@ Some snapshots :
 ### 🔐 Login View
 ![Login View](./ExpenseManagementSystem/expenseMangementApplication/expense-front/Screenshots/Login-Page.png)
 
+
+### 📊 Landing Page
+![Dashboard View](./ExpenseManagementSystem/expenseMangementApplication/expense-front/Screenshots/Landing-Page.png)
+
+
 ### 🛡️ Admin Dashboard
 ![Admin View](./ExpenseManagementSystem/expenseMangementApplication/expense-front/Screenshots/Admin-Menu.png)
 
-### 👤 Customer Menu
+
+### 👤 Customer Dashboard
 ![Customer View](./ExpenseManagementSystem/expenseMangementApplication/expense-front/Screenshots/Customer-Menu.png)
 
-### 📂 Category Management
+
+### 📂 Category List
 ![Category View](./ExpenseManagementSystem/expenseMangementApplication/expense-front/Screenshots/Category-List.png)
 
-### 📊 Dashboard Summary
-![Dashboard View](./ExpenseManagementSystem/expenseMangementApplication/expense-front/Screenshots/Landing-Page.png)
 
-### 📈 Expense Report (Pie Chart)
-![Report](./ExpenseManagementSystem/expenseMangementApplication/expense-front/Screenshots/Expense-Report.png)
+### 📈 Expense Report
+![Expense Report](./ExpenseManagementSystem/expenseMangementApplication/expense-front/Screenshots/Expense-Report.png)
+
+
