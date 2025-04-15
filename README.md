@@ -88,8 +88,6 @@ Make sure you have the following installed on your machine:
    git clone https://github.com/nirmal2342/Expense-Management-System.git
    cd Expense-Management-System
 
-Some snapshots : 
-
 ---
 
 ## 📸 Snapshots
